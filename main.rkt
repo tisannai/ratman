@@ -23,6 +23,12 @@
 
 (require "ratman.rkt")
 
+(provide ratman%
+         ratman-read
+         ratman-edit
+         ratman-read-file
+         ratman-search-error?
+         ratman-file-error?)
 
 (module+ test
 
